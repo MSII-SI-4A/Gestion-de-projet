@@ -39,8 +39,8 @@ Création d'une application web sous la forme d'un site web. Le serveur gère le
 
  * Apache
  * PHP
- * HTML 4
- * CSS 2.1
+ * HTML 5
+ * CSS 3
  * EcmaScript 5.0
  * MySQL
 
@@ -54,11 +54,10 @@ Voici la liste des procédures que l'utilisateur doit suivre pour utiliser l'app
 
 ### 6.1 - Création d'une commande
 
-1. Se connecter au site de l'application.
+1. Accéder au site de l'application.
 	1. La liste des produits disponnibles s'affiche.
-2. Le client clique le bouton "Ajouter" situé sous le produit en question.
-	1. Une fenêtre modale s'affiche proposant a l'utilisateur se selectionner le nombre de produits qu'il désire.
-3. Clique sur "Valider l'ajout".
+2. Le client séléctionne le nombre de produit shoutaité
+3. Le client clique le bouton "Ajouter" situé sous le produit en question.
 4. Le produit s'ajoute au panier de la commande.
 
 ### 6.2 - Visualiser le panier
@@ -71,7 +70,7 @@ Voici la liste des procédures que l'utilisateur doit suivre pour utiliser l'app
 
 ### 6.3 - Passer la commande
 
-1. A partir du panier, cliquer sur "Valider la commande".
+1. A partir du panier, cliquer sur "Valider la commande". Le systéme de commande existant prend le relai.
 
 ### 6.4 - Règle de gestion
 
@@ -81,4 +80,4 @@ Voici la liste des procédures que l'utilisateur doit suivre pour utiliser l'app
 
 ## 7 - Spécification techniques
 
-L'architechture technique reprend le modèle modèle vue controller (MVC) en utilisant le framework éprouvé **CakePHP**. La base de données sera prise en charge sur un serveur **MySQL**. De mannière a mutualiser les ressources, le serveur du site **Apache** et **MySQL** de l'entreprise seront utilisés.
+L'architechture technique reprend le modèle modèle vue controller (MVC) en utilisant le framework éprouvé **CakePHP**. La base de données sera prise en charge sur un serveur **MySQL**. De mannière à mutualiser les ressources, le serveur du site de l'entreprise (**Apache** et **MySQL**) seront ré-utilisés.
