@@ -1,0 +1,89 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+# <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Avant Projet
+
+## <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Structure
+
+### 1 - Introduction
+
+* Rappel de la définition du projet  
+* Rappel des dates clefs  
+* Rappel de la démarche  
+
+### 2 - Analyse des solutions 
+
+* Faire référence au « Dossier de choix de la solution » élaboré au préalable 
+* Proposer toutefois une synthèse de la démarche utilisée (présentation des solutions, mode de notations, comparatif, synthèse et recommandation ...)
+
+> En fonction de l’importance du projet, si il n’y a pas eu d’élaboration de « Dossier de choix de la solution », la démarche et les solutions seront décrites dans ce chapitre suivant le même plan type que celui décrit pour le dossier de choix.
+
+### 3 - Solution retenue
+
+* Description de la solution :
+    * Description fonctionnelle 
+    * Description technique 
+    * Niveau de qualité attendu 
+    * Impact de la solution sur l’organisation 
+    
+* Faisabilité :
+    * Avantages
+    * Inconvénients
+
+* Conditions de mise en oeuvre : 
+    * Moyens humains et matériel nécessaire 
+    * Besoins formation, documentation, communication 
+    * Sous-projet 
+    * Déploiement 
+    
+* Reprise de l’existant : 
+    * Principes et scénario général de reprise 
+    
+### 4 - Le budget
+
+>Le présent chapitre permet de revenir en détail sur le budget esquissé dans la note de cadrage et d’établir le budget du projet
+
+* Gain attendu (commission, impact trésorerie ....) 
+* Coûts et charges (externes ou internes) : 
+    * Charges (MOA/MOE/utilisateurs/Organisation, assistance externe) 
+    * Coûts informatiques (environnements, logiciels et matériels, ...) 
+    * Coûts de déploiement (formation, manuels utilisateur, ...) 
+* Coût de fonctionnement prévisibles 
+* Numéro de ligne budgétaire 
+
+### 5 - L’organisation
+
+>Le but est de confirmer l'organisation.
+
+* Les intervenants : 
+    * Direction chargée du projet 
+    * Responsable du projet, (cf. lettre de mission) 
+    * Autres acteurs (désignation des équipes, rôles et responsabilités) : 
+        * Maîtres d’œuvre 
+        * Maîtres d’ouvrage 
+        * Utilisateurs 
+        * Organisation 
+        * Assistance extérieure 
+    * L’organigramme du projet 
+    * Les instances de fonctionnement du projet : 
+        * Comité de pilotage : 
+            * Composition 
+            * Rôle 
+            * Compétence 
+            * Périodicité 
+        * Comité de suivi : 
+            * Composition 
+            * Rôle 
+            * Compétence 
+            * Périodicité 
+    * Méthode de reporting 
+    * Documentation associée (localisation, codification du projet, organisation des répertoires ...) 
+    
+### 6 - Le phasage et la planification
+
+* Phasage et étapes du projet 
+* Référenciel des livrables attendus à chaque étape 
+* Planification du projet et méthode de suivi (en délai, en charge, en qualité ...) 
+
+### 7 - Annexe
