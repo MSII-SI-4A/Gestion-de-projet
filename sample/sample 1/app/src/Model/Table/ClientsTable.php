@@ -45,10 +45,8 @@ class ClientsTable extends Table {
 			->requirePresence('email', 'create')
 			->notEmpty('email')
 			->add('email', 'unique', ['rule' => 'validateUnique', 'provider' => 'table'])
-			->add('firstname', 'valid', ['rule' => 'numeric'])
 			->requirePresence('firstname', 'create')
 			->notEmpty('firstname')
-			->add('lastname', 'valid', ['rule' => 'numeric'])
 			->requirePresence('lastname', 'create')
 			->notEmpty('lastname');
 

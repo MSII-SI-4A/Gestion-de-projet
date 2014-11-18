@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Mar 18 Novembre 2014 à 16:10
+-- Généré le :  Mar 18 Novembre 2014 à 16:33
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -30,9 +30,9 @@ CREATE TABLE IF NOT EXISTS `clients` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(64) NOT NULL,
   `password` varchar(64) NOT NULL,
-  `email` int(11) NOT NULL,
-  `firstname` int(11) NOT NULL,
-  `lastname` int(11) NOT NULL,
+  `email` varchar(320) NOT NULL,
+  `firstname` varchar(64) NOT NULL,
+  `lastname` varchar(64) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `username` (`username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
@@ -78,7 +78,15 @@ CREATE TABLE IF NOT EXISTS `products` (
   `value` double NOT NULL,
   PRIMARY KEY (`id`),
   KEY `type` (`type_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Contenu de la table `products`
+--
+
+INSERT INTO `products` (`id`, `name`, `description`, `type_id`, `value`) VALUES
+(1, 'SUper logiciel', 'ceci est un super logiciel', 1, 8000),
+(2, 'Disque dur du tonner', 'Super disque dur', 2, 123456);
 
 -- --------------------------------------------------------
 
@@ -90,7 +98,15 @@ CREATE TABLE IF NOT EXISTS `types` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(64) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Contenu de la table `types`
+--
+
+INSERT INTO `types` (`id`, `name`) VALUES
+(1, 'Licences'),
+(2, 'Hardware');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
