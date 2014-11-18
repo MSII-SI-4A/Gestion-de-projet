@@ -14,7 +14,7 @@ Elle  commercialise les offres suivantes :
 
 La Direction Commerciale souhaite booster les ventes et fidéliser les clients en mettant un outil de simulation a disposition des clients sur internet.
 
-Le projet a été soumis à la DSI le 18 novembre 2014 à 10h00 et doit ètre terminé le 18 novembre 2014 à 17h30.
+Le projet a été soumis à la DSI le 18 novembre 2014 à 10h00 et doit ètre terminé le 19 novembre 2014 à 10h30.
 
 ## 2 - Objectifs
 
