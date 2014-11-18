@@ -1,0 +1,38 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+#Note de cadrage
+
+La note de cadrage est un document de synthèse qui consiste à expliquer aussi succinctement que clairement l’idée d’un projet. Son but fondamental est de rendre cette idée compréhensible et donc « accessible » à tous. Une bonne note de cadrage est un document qu’une personne totalement externe au projet peut comprendre globalement et en tirer une idée générale du projet décrit.
+
+Une note de cadrage est réussie lorsqu’elle répond clairement aux questions suivantes :  
+
+* Qui est le client ?  
+* Quels sont les objectifs ?  
+* Quel est le délai ?  
+* Quel est le budget ?  
+* A quoi sert le projet ?  
+* Quelle rentabilité est attendue ?  
+* Les objectifs de la note de cadrage  
+
+La note de cadrage est souvent utilisée lors d’une réunion qui en partage la dénomination -la réunion de cadrage- qui réunit le commanditaire et le chef de projet afin de leur permettre de :  
+
+* Synchroniser leurs visions du projet  
+* Définir les règles de fonctionnement  
+* Etablir un intérêt mutuel au projet  
+* Définir une organisation commune  
+* Les étapes de la réunion de cadrage  
+
+Elle se divise en 5 étapes principales :
+
+* Définition des enjeux  
+* Définition des objectifs  
+* Définition des priorités  
+* Définition de l’organisation  
+* Définition des principaux risques  
