@@ -44,15 +44,11 @@ Création d'une application web sous la forme d'un site web. Le serveur gère le
  * EcmaScript 5.0
  * MySQL
 
-## 5 - Principe de fonctionnement
-
-
-
-## 6 - Procédure de fonctionnement
+## 5 - Procédure de fonctionnement
 
 Voici la liste des procédures que l'utilisateur doit suivre pour utiliser l'application.
 
-### 6.1 - Création d'une commande
+### 5.1 - Création d'une commande
 
 1. Accéder au site de l'application.
 	1. La liste des produits disponnibles s'affiche.
@@ -60,7 +56,7 @@ Voici la liste des procédures que l'utilisateur doit suivre pour utiliser l'app
 3. Le client clique le bouton "Ajouter" situé sous le produit en question.
 4. Le produit s'ajoute au panier de la commande.
 
-### 6.2 - Visualiser le panier
+### 5.2 - Visualiser le panier
 
 1. Cliquer sur le logo panier situé en haut à droite de la page.
 	1. Le panier s'affiche avec :
@@ -68,16 +64,16 @@ Voici la liste des procédures que l'utilisateur doit suivre pour utiliser l'app
 		2. Le total de la commande,
 		3. Les réductions appliqués à la commande (si réduction).
 
-### 6.3 - Passer la commande
+### 5.3 - Passer la commande
 
 1. A partir du panier, cliquer sur "Valider la commande". Le systéme de commande existant prend le relai.
 
-### 6.4 - Règle de gestion
+### 5.4 - Règle de gestion
 
  * Si la commande totale atteint au moins 10 000€, une remise de 3% sur la commande
  * Si la commande totale atteint au moins 10 000€ comprenant au minimum 3 000€ de licences de logiciels, une remise de 5% sur la commande
  * Si la commande totale atteint au moins 10 000€ comprenant au minimum 6 000€ de licences de logiciels et 2 000€ de prestations, une remise de 10% sur la commande
 
-## 7 - Spécification techniques
+## 6 - Spécification techniques
 
 L'architechture technique reprend le modèle modèle vue controller (MVC) en utilisant le framework éprouvé **CakePHP**. La base de données sera prise en charge sur un serveur **MySQL**. De mannière à mutualiser les ressources, le serveur du site de l'entreprise (**Apache** et **MySQL**) seront ré-utilisés.
