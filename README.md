@@ -1,5 +1,4 @@
-Gestion-de-projet
-=================
+#Gestion-de-projet
 
 ## Cours
 
@@ -9,3 +8,11 @@ Gestion-de-projet
 ## Examples
 
  * [Example 1](sample/sample 1/index.md)
+
+## Structure
+
+````
+/doc_types #Format de documents
+/sample/sample {x} #Example créé par des groupes d'élèves
+Format fichier : Markdown au possible
+````
