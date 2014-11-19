@@ -23,6 +23,7 @@ use Cake\Routing\Router;
 
 Router::scope('/', function ($routes) {
 	$routes->connect('/', ['controller' => 'Pages', 'action' => 'getList']);
+	$routes->connect('/'.__('basket'), ['controller' => 'Basket', 'action' => 'getList']);
 });
 
 /**
