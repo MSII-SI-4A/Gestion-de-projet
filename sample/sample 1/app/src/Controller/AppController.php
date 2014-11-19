@@ -35,6 +35,37 @@ class AppController extends Controller {
  */
 	public function initialize() {
 		$this->loadComponent('Flash');
+
+		$this->loadComponent('Auth', [
+			'loginAction' => [
+	            'controller' => 'Clients',
+	            'action' => 'login'
+	        ],
+	        'authorize' => 'Controller',
+	        'authenticate' => [
+	            'Form' => [
+	            	'userModel' => 'Clients',
+	                'fields' => ['username' => 'username', 'password' => 'password']
+	            ]
+	        ]
+	    ]);
+
+	    if($this->isAuthorized()){
+	    	$this->Auth->allow();
+	    }
 	}
 
+	// Gestion supra simple des droits
+	// Une mise en place d'ACL serait à faire ici
+	public function isAuthorized($user = null) {
+        if($user != null){
+        	return true;
+        }
+
+        if($this->request->params['controller'] == 'Clients'){
+        	return true;
+        }
+
+        return false;
+    }
 }

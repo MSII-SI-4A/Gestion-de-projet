@@ -91,4 +91,43 @@ class ClientsController extends AppController {
 		return $this->redirect(['action' => 'index']);
 	}
 
+	public function login(){
+		if ($this->request->is('post')) {
+	        $user = $this->Auth->identify();
+	        if ($user) {
+	            $this->Auth->setUser($user);
+	            return $this->redirect($this->Auth->redirectUrl());
+	        } else {
+	            $this->Flash->error(
+	                __("Nom d'utilisateur ou mot de passe incorrect"),
+	                'default',
+	                [],
+	                'auth'
+	            );
+	        }
+	    }
+	}
+
+	public function create() {
+		if ($this->request->is('post')) {
+			$client = $this->Clients->newEntity($this->request->data);
+            if ($this->Clients->save($client)) {
+                $this->Flash->success(
+	                __("User create with success"),
+	                'default',
+	                [],
+	                'auth'
+	            );
+                return $this->redirect(array('controller'=>'Pages', 'action' => 'getList'));
+            } else {
+                $this->Flash->error(
+	                __("An error occured during the user creation. Please try again."),
+	                'default',
+	                [],
+	                'auth'
+	            );
+            }
+        }
+	}
+
 }
