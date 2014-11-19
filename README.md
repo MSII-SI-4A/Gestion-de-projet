@@ -7,9 +7,9 @@
  * [Avant projet](doc_types/Avant projet.mkd)
  * [Spécifications fonctionnelles et techniques](doc_types/Specifications fonctionnelles et techniques.mkd)
 
-## Examples
+## Exemples
 
- * [Example 1](sample/sample 1/index.md)
+ * [Exemple 1](sample/sample 1/index.md)
 
 ## Structure
 
