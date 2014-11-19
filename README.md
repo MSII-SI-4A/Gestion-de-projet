@@ -11,10 +11,12 @@
 
  * [Exemple 1](sample/sample 1/index.md)
 
-## Structure
+## Structure du dépôt
 
-````
-/doc_types #Format de documents
-/sample/sample {x} #Example créé par des groupes d'élèves
-Format fichier : Markdown au possible
-````
+Le format [Markdown](http://fr.wikipedia.org/wiki/Markdown) est recommandé les documents descriptifs.
+
+```
+doc_types/      --> format des documents de gestion de projet
+sample/         --> exemples de gestion de projet
+  sample {n}/   --> groupe d'exemples (pour un même projet)
+```
