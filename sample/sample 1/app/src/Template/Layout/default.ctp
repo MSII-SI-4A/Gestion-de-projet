@@ -40,6 +40,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 		</div>
 		<div class="header-help">
 			<span><?= $this->Html->link(__('Basket'), ['controller'=>'Basket', 'action' => 'getList']) ?></span>
+			<span><?= $this->Html->link(__('Logout'), ['controller'=>'Clients', 'action' => 'logout']) ?></span>
 		</div>
 	</header>
 	<div id="container">

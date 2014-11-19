@@ -108,6 +108,11 @@ class ClientsController extends AppController {
 	    }
 	}
 
+	public function logout(){
+	    $this->Auth->logout();
+	    return $this->redirect(array('controller'=>'Pages', 'action' => 'getList'));
+	}
+
 	public function create() {
 		if ($this->request->is('post')) {
 			$client = $this->Clients->newEntity($this->request->data);
