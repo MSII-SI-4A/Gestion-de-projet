@@ -23,10 +23,10 @@ use Cake\Routing\Router;
 
 Router::scope('/', function ($routes) {
 	$routes->connect('/', ['controller' => 'Pages', 'action' => 'getList']);
-	$routes->connect('/'.__('basket'), ['controller' => 'Basket', 'action' => 'getList']);
 	$routes->connect('/'.__('login'), ['controller' => 'Clients', 'action' => 'login']);
 	$routes->connect('/'.__('logout'), ['controller' => 'Clients', 'action' => 'logout']);
 	$routes->connect('/'.__('create-account'), ['controller' => 'Clients', 'action' => 'create']);
+	$routes->connect('/panier', ['controller' => 'CommandProducts', 'action' => 'getCurrent']);
 });
 
 /**
