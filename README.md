@@ -2,6 +2,7 @@
 
 ## Cours
 
+ * [Cahier des charges](doc_types/Cahier des charges.mkd)
  * [Note de cadrage](doc_types/Note de cadrage.mkd)
  * [Avant projet](doc_types/Avant projet.mkd)
  * [Spécifications fonctionnelles et techniques](doc_types/Specifications fonctionnelles et techniques.mkd)
