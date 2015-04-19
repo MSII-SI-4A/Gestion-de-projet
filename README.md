@@ -2,6 +2,7 @@
 
 ## Cours
 
+  * [Cour par David Le Manach](course/course.md)
  * [Cahier des charges](doc_types/Cahier des charges.mkd)
  * [Note de cadrage](doc_types/Note de cadrage.mkd)
  * [Avant projet](doc_types/Avant projet.mkd)
